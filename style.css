@@ -1,0 +1,40 @@
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color: white;
+}
+
+body{
+    background-color: rgb(26, 25, 25);
+    margin: 0;
+}
+lu{
+    left: 100px;
+}
+p:hover{
+    color: red;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+}
+.carusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 40px;
+}
+.elementon{
+    flex: 1 0 auto;
+    width: 500px;
+    height: 500px;
+}
